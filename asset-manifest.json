@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/portfolio-nina-lemoine/static/css/main.df42287a.css",
+    "main.js": "/portfolio-nina-lemoine/static/js/main.58f0f052.js",
+    "index.html": "/portfolio-nina-lemoine/index.html",
+    "main.df42287a.css.map": "/portfolio-nina-lemoine/static/css/main.df42287a.css.map",
+    "main.58f0f052.js.map": "/portfolio-nina-lemoine/static/js/main.58f0f052.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df42287a.css",
+    "static/js/main.58f0f052.js"
+  ]
+}

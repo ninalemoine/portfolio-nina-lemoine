@@ -1,0 +1,45 @@
+/* Version minimaliste des classes Tailwind nécessaires */
+.container { width: 100%; margin-left: auto; margin-right: auto; }
+.mx-auto { margin-left: auto; margin-right: auto; }
+.px-4 { padding-left: 1rem; padding-right: 1rem; }
+.py-12 { padding-top: 3rem; padding-bottom: 3rem; }
+.max-w-4xl { max-width: 56rem; }
+.inline-flex { display: inline-flex; }
+.items-center { align-items: center; }
+.text-brown { color: var(--brown); }
+.hover\:text-terracotta:hover { color: var(--terracotta); }
+.transition-colors { transition-property: color, background-color, border-color; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
+.mb-8 { margin-bottom: 2rem; }
+.bg-white { background-color: white; }
+.p-8 { padding: 2rem; }
+.rounded-xl { border-radius: 0.75rem; }
+.shadow-md { box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); }
+.flex { display: flex; }
+.items-start { align-items: flex-start; }
+.gap-6 { gap: 1.5rem; }
+.text-5xl { font-size: 3rem; line-height: 1; }
+.text-4xl { font-size: 2.25rem; line-height: 2.5rem; }
+.font-bold { font-weight: 700; }
+.text-dark-brown { color: var(--dark-brown); }
+.mb-3 { margin-bottom: 0.75rem; }
+.text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+.mb-6 { margin-bottom: 1.5rem; }
+.font-bold { font-weight: 700; }
+.text-terracotta { color: var(--terracotta); }
+.text-lg { font-size: 1.125rem; line-height: 1.75rem; }
+.text-2xl { font-size: 1.5rem; line-height: 2rem; }
+.space-y-2 > * + * { margin-top: 0.5rem; }
+.bg-peach { background-color: var(--peach); }
+.p-6 { padding: 1.5rem; }
+.rounded-lg { border-radius: 0.5rem; }
+.border { border-width: 1px; }
+.border-terracotta { border-color: var(--terracotta); }
+.italic { font-style: italic; }
+.mt-8 { margin-top: 2rem; }
+.flex-wrap { flex-wrap: wrap; }
+.gap-2 { gap: 0.5rem; }
+.px-3 { padding-left: 0.75rem; padding-right: 0.75rem; }
+.py-1 { padding-top: 0.25rem; padding-bottom: 0.25rem; }
+.rounded-full { border-radius: 9999px; }
+.text-sm { font-size: 0.875rem; line-height: 1.25rem; }
+.mr-2 { margin-right: 0.5rem; } 
