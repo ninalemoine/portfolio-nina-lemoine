@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MSc Business Analytics - Nina LEMOINE</title>
+  <style>
+    :root {
+      --peach: #FCE9D9;
+      --brown: #5D4037;
+      --dark-brown: #3E2723;
+      --terracotta: #D66853;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--peach);
+      color: var(--brown);
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      color: var(--terracotta);
+      text-decoration: none;
+      font-weight: 500;
+      margin-bottom: 30px;
+      transition: transform 0.3s ease;
+    }
+    .back-link:hover {
+      transform: translateX(-5px);
+    }
+    .back-link::before {
+      content: '←';
+      margin-right: 8px;
+      font-size: 1.2em;
+    }
+    h1 {
+      color: var(--dark-brown);
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .content {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .section-title {
+      color: var(--terracotta);
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    li {
+      margin-bottom: 10px;
+      padding-left: 20px;
+      position: relative;
+    }
+    li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--terracotta);
+    }
+    .project-title {
+      text-align: center;
+      white-space: nowrap;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="portfolio-v2.html#parcours" class="back-link">Retour au portfolio</a>
+    
+    <div class="container">
+      <div class="project-section">
+        <h1 class="project-title">🎓 MSc Business Analytics – Eugénia School</h1>
+        <p><strong>Top 5 promo</strong> – Formation axée data, stratégie et IA appliquée au business.</p>
+        <ul>
+          <li>Maîtrise des outils : Python, SQL, Power BI, Dataiku, Tableau, Google Analytics</li>
+          <li>Finaliste du hackathon 3M (Make, Malt, Mistral) • Vainqueur GoFusion</li>
+          <li>Focus : Automatisation, visualisation et pilotage stratégique par la donnée</li>
+        </ul>
+      </div>
+  
+      <div class="project-section">
+        <h1 class="project-title">📍 Zenpark – Chargée de Projet</h1>
+        <p><strong>Alternance – Gestion de 10 clients & 10 partenaires</strong></p>
+        <ul>
+          <li>🎯 30 incidents hebdo traités – taux de satisfaction de 95%</li>
+          <li>🤖 Automatisation d'analyse de fraude – 25h économisées/mois</li>
+          <li>🧑‍💼 Management : Coordination de 8 équipes, -22% de délais d'intervention</li>
+          <li>📊 Outils : Qlik, Excel avancé, Jira, Pipedrive</li>
+          <li>💰 Suivi financier : Facturation, contrôle des coûts, validation de prestations</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  </html> 
